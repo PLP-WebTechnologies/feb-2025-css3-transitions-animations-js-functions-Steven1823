@@ -1,0 +1,29 @@
+/* Add this to your style.css file */
+.button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #243f52;
+  color: rgb(190, 126, 126);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;  /* Smooth transition for changes */
+}
+
+.button:hover {
+  background-color: #2980b9;
+  transform: scale(1.1);  /* Grow the button */
+}
+
+/* Animation for a fading text */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInText {
+  animation: fadeIn 2s ease-in-out;
+}
